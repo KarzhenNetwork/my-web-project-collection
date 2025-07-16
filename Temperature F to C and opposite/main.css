@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(159, 132, 114);
+    font-family: Arial,  sans-serif;
+}
+
+h1{
+    color: rgb(17, 90, 114);
+}
+form{
+    text-align: center;
+    max-width: 350px;
+    background-color: aliceblue;
+    margin: auto;
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow:15px 15px 30px red;
+}
+
+#checkbox{
+    text-align: center;
+    border: 2px solid black;
+    font-size: 1.5em;
+    max-width:200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+label{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
+#submit{
+    margin-top: 15px;
+    background-color: rgb(220, 0, 0);
+    font-size: 1.2em;
+    color:white;
+    padding: 8px 15px;
+    border:none;
+    border-radius:5px;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: rgb(197, 92, 92);
+}
+
+#result{
+    font-size:1.9em;
+    font-weight:bold;
+}
