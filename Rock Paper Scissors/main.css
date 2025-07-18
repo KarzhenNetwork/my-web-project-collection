@@ -1,5 +1,6 @@
-
 body {
+    background-color: rgb(159, 132, 114);
+    font-family: Arial,  sans-serif;
     font-family: Arial,  sans-serif;
     text-align: center;
     flex-direction: column;
