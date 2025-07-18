@@ -1,3 +1,8 @@
+body{
+    background-color: rgb(159, 132, 114);
+    font-family: Arial,  sans-serif;
+}
+
 #container {
     text-align: center;
     font-size: 2em;
