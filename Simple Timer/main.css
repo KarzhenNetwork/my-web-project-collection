@@ -1,4 +1,6 @@
 body {
+    background-color: rgb(159, 132, 114);
+    font-family: Arial,  sans-serif;
     flex-direction: column;
     display: flex;
     align-items: center;
