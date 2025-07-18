@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
     <title>Dice Roller</title>
 </head>
 <body>
-            <div id="container">
-            <h1>Dice Roller</h1>
-            <label for=""># of dice:</label>
-            <input type="number" min="1" max="10000" id="numOfDice" value="1" >
-            <button onclick="rollDice()">Roll Dice</button>
-            <div id="diceResult"></div>
-            <div id="imageResult"></div>
-        </div>
+    <div id="container">
+        <h1>Dice Roller</h1>
+        <label for=""># of dice:</label>
+        <input type="number" min="1" max="10000" id="numOfDice" value="1" >
+        <button onclick="rollDice()">Roll Dice</button>
+        <div id="diceResult"></div>
+        <div id="imageResult"></div>
+    </div>
+
+    <script src="main.js"></script>
 </body>
 </html>
